@@ -1,0 +1,53 @@
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+ion-icon {
+  font-size: 22px;
+}
+.top-bar {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  margin: auto;
+  width: 935px;
+}
+.left-top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.left-top-bar ion-icon {
+  border-right: 1px solid #dbdbdb;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.search-top-bar input {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}
+:-moz-placeholder {
+  text-align: center;
+}
+.search-top-bar {
+  background-color: #fafafa;
+  border-radius: 9px;
+  border: 1px solid #dbdbdb;
+  font-size: 16px;
+  padding: 5px;
+}
+.right-top-bar ion-icon {
+  margin-right: 20px;
+}
