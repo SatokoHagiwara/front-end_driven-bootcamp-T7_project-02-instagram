@@ -337,6 +337,13 @@ main {
 footer {
   display: none;
 }
+@media (max-width: 1120px) {
+  .sidebar {
+    margin-left: 15px;
+    position: sticky;
+    width: 293px;
+  }
+}
 @media (max-width: 935px) {
   .main-container-right {
     display: none;
