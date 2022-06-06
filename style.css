@@ -183,15 +183,23 @@ main {
   padding: 10px;
 }
 .users-post-comments {
+  align-items: center;
   display: flex;
+  justify-content: space-between;
   margin-bottom: 10px;
 }
-.users-post-comments h2 {
+.users-post-comments-left {
+  display: flex;
+}
+.users-post-comments-left h2 {
   font-weight: bold;
   margin-right: 5px;
 }
-.users-post-comments p span {
+.users-post-comments-left p span {
   color: #746f6f;
+}
+.users-post-comments ion-icon {
+  font-size: 12px;
 }
 .see-all-comments p {
   color: #746f6f;
